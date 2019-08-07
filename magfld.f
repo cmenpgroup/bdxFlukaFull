@@ -73,7 +73,7 @@
 
 
 
-	OPEN(10, FILE = '/home/russ2/MagField/blockyUpstream_1.1_csv.txt')
+	OPEN(10, FILE = 'MagField/blockyUpstream_1.1_csv.txt')
 
 		DO I = 1,193851
 
@@ -96,7 +96,7 @@
 
 
 
-	OPEN(11, FILE = '/home/russ2/MagField/blockyHybrid_3.0_csv.txt')
+	OPEN(11, FILE = 'MagField/blockyHybrid_3.0_csv.txt')
 		
 		DO I = 1356958,2058512
 
